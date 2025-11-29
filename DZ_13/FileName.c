@@ -34,7 +34,7 @@ void main()
     // Вывод
     for (int i = 0; i < n; i++) 
     {
-        if (i > 0) printf(" ");
+        printf(" ");
         printf("%s", words[i]);
     }
     printf("\n");
